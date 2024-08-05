@@ -6,10 +6,10 @@ PKG_RELEASE:=1
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
 PKG_SOURCE_URL:=https://github.com/containers/podman/archive/v$(PKG_VERSION)
-PKG_HASH:=818db636955a1eeec4dcb586d18783ab86a8afd07e3f4adaf25920b3697316c9
+PKG_HASH:=53f6bf7a8e4b647b2378ea8bfee6c67e03e412bf027b4dc0ff37a3a764703405
 
 PKG_LICENSE:=Apache-2.0
-PKG_LICENSE_FILES:=LICENSE
+PKG_LICENSE_FILES:=LICENSE53f6bf7a8e4b647b2378ea8bfee6c67e03e412bf027b4dc0ff37a3a764703405
 PKG_MAINTAINER:=Oskari Rauta <oskari.rauta@gmail.com>
 
 PKG_BUILD_DEPENDS:=golang/host protobuf/host btrfs-progs
